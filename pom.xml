@@ -7,6 +7,10 @@
     <groupId>com.csm</groupId>
     <artifactId>mini-mybatis</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>mybatis-step-01</module>
+    </modules>
 
     <dependencyManagement>
         <dependencies>
