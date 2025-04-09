@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>mybatis-step-01</module>
+        <module>mybatis-step-02</module>
     </modules>
 
     <dependencyManagement>
@@ -54,6 +55,12 @@
                         <groupId>org.slf4j</groupId>
                     </exclusion>
                 </exclusions>
+            </dependency>
+            <!--            提供包扫描-->
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>5.5.0</version>
             </dependency>
         </dependencies>
         <!-- LOGGING end -->
